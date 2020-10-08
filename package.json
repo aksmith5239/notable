@@ -1,14 +1,24 @@
 {
-  "name": "note-taker",
+  "name": "notable",
   "version": "1.0.0",
-  "description": "",
+  "description": "Allows user to read and write notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Allison Smith",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksmith5239/notable.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/aksmith5239/notable/issues"
+  },
+  "homepage": "https://github.com/aksmith5239/notable#readme"
 }
