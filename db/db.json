@@ -1,14 +1,19 @@
 {
-  "notes":  [
+  "notes":[
       {
         "title":"Test",
         "text":"text", 
-        "id": "test_id"
+        "id": "0"
     }, 
     {
         "title":"New",
         "text":"new", 
-        "id": "test_id_2"
-    } 
+        "id": "1"
+    }, 
+    {
+        "title":"Sleep",
+        "text":"get rest", 
+        "id": "2"
+    }
     ]
 }

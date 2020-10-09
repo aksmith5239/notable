@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const PORT = process.env.PORT || 3001;
 const { notes } = require('./db/db.json');
 
@@ -11,22 +12,32 @@ function filterByQuery(query, notesArray) {
     if(query.text) {
         filteredResults = filteredResults.filter(note => note.text === query.text);
     }
-    // console.log(filteredResults);
-    return filteredResults;
-    
+    return filteredResults;    
 }
+//not working
+function findById(id, notesArray) {
+    const result = notesArray.filter(note => note.id === id)[0];
+    return result;
+  }
 
-
-
+//filtered notes by query
 app.get("/api/notes", (req, res) => {
     let results = notes;
-    // console.log(req.query)
     if(req.query) {
         results = filterByQuery(req.query, results);
     }
     res.json(results);
 });
-//port listener
+
+// filter by id parameter - not working right now
+app.get('/api/notes/:id', (req, res) => {
+    const result = findById(req.params.id, notes);
+    res.json(result);
+});
+//static folder that points to public
+app.use(express.static(path.join(__dirname, 'public')));
+
+//port listener - runs webserver
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
