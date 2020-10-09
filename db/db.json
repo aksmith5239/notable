@@ -1,19 +1,29 @@
 {
-  "notes":[
-      {
-        "title":"Test",
-        "text":"text", 
-        "id": "0"
-    }, 
+  "notes": [
     {
-        "title":"New",
-        "text":"new", 
-        "id": "1"
-    }, 
+      "title": "Test",
+      "text": "text",
+      "id": "0"
+    },
     {
-        "title":"Sleep",
-        "text":"get rest", 
-        "id": "2"
+      "title": "New",
+      "text": "new",
+      "id": "1"
+    },
+    {
+      "title": "Sleep",
+      "text": "get rest",
+      "id": "2"
+    },
+    {
+      "title": "Relax",
+      "text": "watch tv",
+      "id": "3"
+    },
+    {
+      "title": "Golf",
+      "text": "Meet at NMSU at 8",
+      "id": "4"
     }
-    ]
+  ]
 }
