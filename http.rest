@@ -1,4 +1,6 @@
-get http://localhost:3001/api/notes
+get http://localhost:3001/api/notes?text=new
+
+
 
 
 
