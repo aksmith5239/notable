@@ -24,6 +24,16 @@
       "title": "Golf",
       "text": "Meet at NMSU at 8",
       "id": "4"
+    },
+    {
+      "title": "New Note",
+      "text": "This is where I type a new note!",
+      "id": "5"
+    },
+    {
+      "title": "Another Note!",
+      "text": "We type more notes here!",
+      "id": "6"
     }
   ]
 }
