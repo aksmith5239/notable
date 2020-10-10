@@ -34,6 +34,11 @@
       "title": "Another Note!",
       "text": "We type more notes here!",
       "id": "6"
+    },
+    {
+      "title": "Dinner with Friends",
+      "text": "Dinner with friends at La Posta",
+      "id": "7"
     }
   ]
 }
