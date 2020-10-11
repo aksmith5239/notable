@@ -18,7 +18,7 @@ Notable creates a note taking app that allows a user to enter a note title and n
 The application is accessed from https://notable-notes-2020.herokuapp.com/ . Press the start button to enter notes.
 
 ## Usage
-Access the application from the heroku url https://notable-notes-2020.herokuapp.com/ and then press the start button. To enter a note place the cursor on the Title and enter your title. Place the cursor in the text field and enter the note text. To save the note press the save icon that appears in the top right corner. To add a new note click the pencil icon in the top right corner of the screen. 
+Access the application from the heroku url https://notable-notes-2020.herokuapp.com/ and then press the start button. To enter a note place the cursor on the Title and enter your title. Place the cursor in the text field and enter the note text. To save the note press the save icon that appears in the top right corner. To add a new note click the pencil icon in the top right corner of the screen. To delete a note, click the red trash can next to the note in the left hand column. 
 
 ## Contributing
 
