@@ -64,6 +64,7 @@ var handleNoteSave = function() {
 
 // BONUS Delete the clicked note
 var handleNoteDelete = function(event) {
+  // alert("a button was clicked");
   // prevents the click listener for the list from being called when the button inside of it is clicked
   event.stopPropagation();
 
@@ -141,3 +142,5 @@ $noteText.on("keyup", handleRenderSaveBtn);
 
 // Gets and renders the initial list of notes
 getAndRenderNotes();
+
+module.exports = deleteNote();
