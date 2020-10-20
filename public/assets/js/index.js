@@ -143,4 +143,4 @@ $noteText.on("keyup", handleRenderSaveBtn);
 // Gets and renders the initial list of notes
 getAndRenderNotes();
 
-module.exports = deleteNote();
+// module.exports = {deleteNote}
